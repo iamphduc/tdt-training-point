@@ -4,8 +4,8 @@ async function main() {
   const radWrapperList = document.querySelectorAll(".Qr7Oae [jscontroller=pkFYWb]");
 
   radWrapperList.forEach((ele) => {
-    const title = ele.querySelector(".cTDvob.D1wxyf.G4EHhc").textContent;
-    const answer = ele.querySelector("[jscontroller=wPRNsd]").dataset.value;
+    const title = ele.querySelector(".M7eMe")?.textContent;
+    const answer = ele.querySelector("[jscontroller=wPRNsd]")?.dataset.value;
     const point = ele.querySelector(".RGoode");
 
     if (point) {

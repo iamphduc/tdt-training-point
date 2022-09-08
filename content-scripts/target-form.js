@@ -6,8 +6,8 @@ function main() {
       const radWrapperList = document.querySelectorAll(".Qr7Oae [jscontroller=sWGJ4b]");
 
       radWrapperList.forEach((ele) => {
-        const title = ele.querySelector(".HoXoMd.D1wxyf.G4EHhc").textContent;
-        const options = ele.querySelectorAll(".nWQGrd.zwllIb .Od2TWd.hYsg7c");
+        const title = ele.querySelector(".M7eMe")?.textContent;
+        const options = ele.querySelectorAll("[jscontroller=EcW08c]");
         const answer = titleToAnswer[title];
 
         options.forEach((option) => {
